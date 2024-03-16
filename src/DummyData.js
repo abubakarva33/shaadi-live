@@ -26,10 +26,23 @@ export const notificationData = [
   },
 ];
 
-export const myMatchItems= [
-    {
-        image: "image",
-        name: "Juli M",
-        description: " "
-    }
-]
+export const myMatchItems = [
+  {
+    image: "image",
+    name: "Juli M",
+    description: "25 yrs, 4 10, Bengali, Malda",
+    employmentHistory: "Not working",
+  },
+  {
+    image: "nullImage",
+    name: "Monica C",
+    description: "23 yrs, 4 11, English, Other",
+    employmentHistory: "Social Worker / Volunteer / N...",
+  },
+  {
+    image: "nullImage",
+    name: "23 yrs, 4' 5, Bengali, Anantap...",
+    description: "25 yrs, 4 10, Bengali, Malda",
+    employmentHistory: "Human Resources Professio..",
+  },
+];
