@@ -3,10 +3,10 @@ import { notificationData } from "../../../../DummyData";
 const NotificationEach = () => {
   const data = notificationData;
   return (
-    <div className="pt-3">
-      <div className="bg-white shadow-xl rounded-lg">
+    <div className="">
+      <div className="bg-white shadow-xl rounded-lg pt-3">
         {data?.map((item, ind) => (
-          <div key={ind} className="flex justify-between border-b mb-4 pe-2">
+          <div key={ind} className="flex  border-b mb-4 pe-2">
             <img src={`/images/${item?.logo}.webp`} alt="" className="w-[80px]" />
             <div>
               <h1>{item?.status}</h1>
